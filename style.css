@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.flex {
+    display: flex;
+    align-items: center; 
+}
+
+.slider-conteiner {
+    width: 300px;
+    height: 380px;
+    border: 2px solid black;
+    background: rgb(84, 174, 84);
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    transition: all ease 1s;
+}
+
+.position-first {
+    position: relative;
+    right: 0px;
+}
+
+.position-second {
+    position: relative;
+    right: 300px;
+}
+
+.position-third {
+    position: relative;
+    right: 600px;
+}
+
+img {
+    width: 300px;
+}
+
+.button-slider {
+    width: 60px;
+    height: 60px;
+    background-image: url(image/Poké_Ball_icon.svg.png);
+    background-size: 100%;
+    cursor: pointer;
+    margin: 0 40px;
+}
+
+.opacity {
+    opacity: 0;
+    cursor: auto;
+}
+
+
+
+
